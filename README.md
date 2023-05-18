@@ -12,3 +12,8 @@ If we don't use ts-node then we will need to do these steps:
 1. Compile file with tsc [filename].ts (js file will be created)
 2. Tun js file with - node [filename].js
 3. 3 Remove js file
+
+---
+
+To run application: npm start
+(start uses lite-server, it was added by: npm install lite-server)

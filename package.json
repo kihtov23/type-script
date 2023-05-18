@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "lite-server"
+    "start": "lite-server",
+    "dev": "concurrently --kill-others \"tsc --watch\" \"npm start\""
   },
   "author": "",
   "license": "ISC",
