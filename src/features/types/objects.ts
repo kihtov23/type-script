@@ -94,3 +94,6 @@ function getProfit({ boxOffice: { budget, grossWorldwide } }: Movie): number {
   return grossWorldwide - budget;
 }
 console.log(`Profit = ${getProfit(dune)}`);
+
+const { title } = dune;
+console.log(`deconstruct title: ${title}`);

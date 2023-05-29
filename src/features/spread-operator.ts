@@ -34,3 +34,4 @@ function handleArgs(...args: string[]): void {
 console.log("----------------------- function args ---------------");
 handleArgs(...["one", "two", "three"]);
 handleArgs(...["apple"]);
+document;

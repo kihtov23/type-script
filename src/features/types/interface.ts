@@ -45,15 +45,15 @@ const myScreen: IScreen = {
 myScreen.printText("Hi");
 
 // ! combine interfaces
-interface Shape {
+interface MyShape {
   name: string;
 }
 
-interface Shape {
+interface MyShape {
   countSquare: () => number;
 }
 
-const circular: Shape = {
+const circular: MyShape = {
   name: "circular",
   countSquare: () => {
     return 123;
@@ -62,6 +62,6 @@ const circular: Shape = {
 
 // ! extending interface. It is similar to type intersection
 
-interface ExtendedShape extends Shape, IScreen {
+interface ExtendedShape extends MyShape, IScreen {
   color: string;
 }

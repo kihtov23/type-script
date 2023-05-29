@@ -61,7 +61,7 @@ function throwError(message: string): never {
   throw new Error(message);
 }
 
-//void vs underfined
+//void vs undefined
 function returnVoid() {
   console.log("inside void function");
 }
