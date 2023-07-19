@@ -1,5 +1,6 @@
 //defines shape of objects
 //object
+//
 type Table1 = {
   readonly name: string;
   cost: number;
